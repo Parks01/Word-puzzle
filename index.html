@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       <link href="css/styles.css" rel="stylesheet" type="text/css">
+       <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+       crossorigin="anonymous"></script>
+       <script src="js/scripts.js"></script>
+       <title>Word Puzzle</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="puzzleForm">
+        <div class="from-group">
+          <h3>Please enter the count to number.</h3>
+          <input type="text" name="countTo" id="countTo" class="form-control">
+        </div>
+        <div class="from-group">
+          <h3>Please enter the count by number.</h3>
+          <input type="text" name="countBy" id="countBy" class="form-control">
+        </div>
+        <!-- <button>Count</button> -->
+      </form>
+      <span id="youCountedNumber"></span>
+      <button id="formSubmit" type="submit" class="btn btn-info">Count</button>
+
+    </div>
+  </body>
+</html>
