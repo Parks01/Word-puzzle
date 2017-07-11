@@ -4,7 +4,7 @@ $(document).ready(function() {
     var countTo = parseInt($("#countTo").val());
     var countBy = parseInt($("#countBy").val());
 
-    for(var i = countBy; i == countTo; i += 5){
+    for(var i = countBy; i <= countTo; i += countBy){
       $("#youCountedNumber").append(i + "<br>");
     }
     event.preventDefault();
